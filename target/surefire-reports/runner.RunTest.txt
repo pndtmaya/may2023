@@ -1,0 +1,28 @@
+-------------------------------------------------------------------------------
+Test set: runner.RunTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 32.184 s <<< FAILURE! - in runner.RunTest
+runScenario(runner.RunTest)  Time elapsed: 8.495 s  <<< FAILURE!
+io.cucumber.core.exception.CucumberException: 
+Step [user enter (.*) as username] is defined with 1 parameters at 'mapping.Login.user_enter_as_username(java.lang.String)'.
+However, the gherkin step has 0 arguments.
+Step text: user enter Admin as username
+
+runScenario(runner.RunTest)  Time elapsed: 5.187 s  <<< FAILURE!
+io.cucumber.core.exception.CucumberException: 
+Step [user enter (.*) as username] is defined with 1 parameters at 'mapping.Login.user_enter_as_username(java.lang.String)'.
+However, the gherkin step has 0 arguments.
+Step text: user enter AdminA as username
+
+runScenario(runner.RunTest)  Time elapsed: 5.905 s  <<< FAILURE!
+io.cucumber.core.exception.CucumberException: 
+Step [user enter (.*) as username] is defined with 1 parameters at 'mapping.Login.user_enter_as_username(java.lang.String)'.
+However, the gherkin step has 0 arguments.
+Step text: user enter adminB as username
+
+runScenario(runner.RunTest)  Time elapsed: 10.302 s  <<< FAILURE!
+io.cucumber.core.exception.CucumberException: 
+Step [user enter (.*) as username] is defined with 1 parameters at 'mapping.Login.user_enter_as_username(java.lang.String)'.
+However, the gherkin step has 0 arguments.
+Step text: user enter "Admin" as username
+
